@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Izinkan HTTP (non-HTTPS) untuk IP lokal -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">192.168.168.40</domain>
+    </domain-config>
+</network-security-config>
